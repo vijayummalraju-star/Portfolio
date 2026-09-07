@@ -46,7 +46,7 @@ Portfolio2/
 
 ## 🌐 Live Preview
 
-**Portfolio:** https://592xb8-dubtbe6ls-arcadawebapps8.vercel.app
+**Portfolio:** https://5hgkxq-cdggbvpst-arcedawebapps1.vercel.app
 
 ## 🚀 Run Locally
 
