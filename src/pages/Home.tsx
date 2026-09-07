@@ -1,4 +1,5 @@
 import Hero from '../components/Hero';
+import About from '../components/About';
 import ToolsUniverse from '../components/ToolsUniverse';
 import Journey from '../components/Journey';
 import GithubSpotlight from '../components/GithubSpotlight';
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <main className="bg-black text-[#f5f1e8]">
       <Hero />
+      <About />
       <ToolsUniverse />
       <Journey />
       <GithubSpotlight />
