@@ -6,6 +6,7 @@ import GithubSpotlight from '../components/GithubSpotlight';
 import RealTimeProjectInterface from '../components/RealTimeProjectInterface';
 import ProjectsGallery from '../components/ProjectsGallery';
 import Voices from '../components/Testimonials';
+import FinalPersonalSection from '../components/FinalPersonalSection';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
@@ -20,6 +21,7 @@ export default function Home() {
       <RealTimeProjectInterface />
       <ProjectsGallery />
       <Voices />
+      <FinalPersonalSection />
       <Contact />
       <Footer />
     </main>
