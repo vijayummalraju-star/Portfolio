@@ -3,6 +3,7 @@ import About from '../components/About';
 import ToolsUniverse from '../components/ToolsUniverse';
 import Journey from '../components/Journey';
 import GithubSpotlight from '../components/GithubSpotlight';
+import RealTimeProjectInterface from '../components/RealTimeProjectInterface';
 import ProjectsGallery from '../components/ProjectsGallery';
 import Voices from '../components/Testimonials';
 import Contact from '../components/Contact';
@@ -16,6 +17,7 @@ export default function Home() {
       <ToolsUniverse />
       <Journey />
       <GithubSpotlight />
+      <RealTimeProjectInterface />
       <ProjectsGallery />
       <Voices />
       <Contact />
