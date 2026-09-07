@@ -1,0 +1,23 @@
+import Hero from '../components/Hero';
+import ToolsUniverse from '../components/ToolsUniverse';
+import Journey from '../components/Journey';
+import GithubSpotlight from '../components/GithubSpotlight';
+import ProjectsGallery from '../components/ProjectsGallery';
+import Voices from '../components/Testimonials';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
+
+export default function Home() {
+  return (
+    <main className="bg-black text-[#f5f1e8]">
+      <Hero />
+      <ToolsUniverse />
+      <Journey />
+      <GithubSpotlight />
+      <ProjectsGallery />
+      <Voices />
+      <Contact />
+      <Footer />
+    </main>
+  );
+}
