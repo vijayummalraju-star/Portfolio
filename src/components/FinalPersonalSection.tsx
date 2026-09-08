@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowDown, Mail } from 'lucide-react';
 import { CINEMA_EASE } from '../lib/api';
 
-const CONTACT_IMAGE = '/images/profile-contact.webp';
+const CONTACT_IMAGE = '/portfolio/photo-4.jpg';
 const EASE = [...CINEMA_EASE] as unknown as [number, number, number, number];
 
 export default function FinalPersonalSection() {
