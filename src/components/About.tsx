@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { UserRound, Sparkles } from 'lucide-react';
 import { apiGet, CINEMA_EASE, type Profile } from '../lib/api';
 
-const ABOUT_IMAGE = '/images/profile-about.webp';
+const ABOUT_IMAGE = '/portfolio/photo-2.jpg';
 const EASE = [...CINEMA_EASE] as unknown as [number, number, number, number];
 
 export default function About() {
