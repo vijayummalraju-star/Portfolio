@@ -4,7 +4,7 @@ import { ArrowDown, Sparkles, Play, Mail, MapPin, CircleDot, Github } from 'luci
 import { apiGet, CINEMA_EASE, type Profile, type Stats } from '../lib/api';
 
 const HERO_BG = 'https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=1920&auto=format&fit=crop';
-const HERO_IMAGE = '/images/profile-hero.webp';
+const HERO_IMAGE = '/portfolio/photo-1.jpg';
 const EASE = [...CINEMA_EASE] as unknown as [number, number, number, number];
 
 export default function Hero() {
