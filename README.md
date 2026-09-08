@@ -4,7 +4,7 @@
 
 ## 🌐 Live Website
 
-**[View Portfolio](https://592xb8-dubtbe6ls-arcadawebapps8.vercel.app)**
+**[View Portfolio](https://portfolio2-eight-self-93.vercel.app)**
 
 ## ✨ Overview
 
