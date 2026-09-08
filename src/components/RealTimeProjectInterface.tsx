@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Activity, ArrowUpRight, Cpu, Radio } from 'lucide-react';
 import { CINEMA_EASE } from '../lib/api';
 
-const PROJECT_IMAGE = '/images/profile-projects.webp';
+const PROJECT_IMAGE = '/portfolio/photo-3.jpg';
 const EASE = [...CINEMA_EASE] as unknown as [number, number, number, number];
 
 export default function RealTimeProjectInterface() {
