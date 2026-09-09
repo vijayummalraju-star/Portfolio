@@ -6,8 +6,8 @@ import { apiGet, apiPut, CINEMA_EASE, type Project } from '../lib/api';
 const FALLBACK_IMAGES = [
   '/portfolio/drink_water.jpg',
   '/portfolio/unique_calculator_design.jpg',
-  '/portfolio/portrait_2.jpg',
   '/portfolio/portrait_1.jpg',
+  '/portfolio/portrait_2.jpg',
 ];
 
 // Real-project-only image overrides. Journey/timeline assets are intentionally untouched.
@@ -15,7 +15,7 @@ const REAL_PROJECT_IMAGES: Record<string, string> = {
   'Water Reminder': '/portfolio/drink_water.jpg',
   'Water Remainder': '/portfolio/drink_water.jpg',
   'Calculator': '/portfolio/unique_calculator_design.jpg',
-  'Personal Portfolio': '/portfolio/portrait_2.jpg',
+  'Personal Portfolio': '/portfolio/portrait_1.jpg',
   'Portfolio 2': '/portfolio/portrait_2.jpg',
 };
 
