@@ -4,19 +4,19 @@ import { Search, Star, Eye, Heart, Loader2, ExternalLink, X } from 'lucide-react
 import { apiGet, apiPut, CINEMA_EASE, type Project } from '../lib/api';
 
 const FALLBACK_IMAGES = [
-  '/portfolio/file_000000001d7c821185f6e016da308916.jpg',
-  '/portfolio/selected_image_55.3_51.7.jpg',
-  '/portfolio/selected_portrait.jpg',
-  '/portfolio/vijay-photo.jpg',
+  '/portfolio/drink_water.jpg',
+  '/portfolio/unique_calculator_design.jpg',
+  '/portfolio/vijay_portfolio_portrait.jpg',
+  '/portfolio/vijay_selected_image.jpg',
 ];
 
 // Real-project-only image overrides. Journey/timeline assets are intentionally untouched.
 const REAL_PROJECT_IMAGES: Record<string, string> = {
-  'Water Reminder': '/portfolio/file_000000001d7c821185f6e016da308916.jpg',
-  'Water Remainder': '/portfolio/file_000000001d7c821185f6e016da308916.jpg',
-  'Calculator': '/portfolio/selected_image_55.3_51.7.jpg',
-  'Personal Portfolio': '/portfolio/selected_portrait.jpg',
-  'Portfolio 2': '/portfolio/vijay-photo.jpg',
+  'Water Reminder': '/portfolio/drink_water.jpg',
+  'Water Remainder': '/portfolio/drink_water.jpg',
+  'Calculator': '/portfolio/unique_calculator_design.jpg',
+  'Personal Portfolio': '/portfolio/vijay_portfolio_portrait.jpg',
+  'Portfolio 2': '/portfolio/vijay_selected_image.jpg',
 };
 
 const EASE = [...CINEMA_EASE] as unknown as [number, number, number, number];
