@@ -6,8 +6,8 @@ import { apiGet, apiPut, CINEMA_EASE, type Project } from '../lib/api';
 const FALLBACK_IMAGES = [
   '/portfolio/drink_water.jpg',
   '/portfolio/unique_calculator_design.jpg',
-  '/portfolio/vijay_portfolio_portrait.jpg',
-  '/portfolio/vijay_selected_image.jpg',
+  '/portfolio/portrait_1.jpg',
+  '/portfolio/portrait_2.jpg',
 ];
 
 // Real-project-only image overrides. Journey/timeline assets are intentionally untouched.
@@ -15,8 +15,8 @@ const REAL_PROJECT_IMAGES: Record<string, string> = {
   'Water Reminder': '/portfolio/drink_water.jpg',
   'Water Remainder': '/portfolio/drink_water.jpg',
   'Calculator': '/portfolio/unique_calculator_design.jpg',
-  'Personal Portfolio': '/portfolio/vijay_portfolio_portrait.jpg',
-  'Portfolio 2': '/portfolio/vijay_selected_image.jpg',
+  'Personal Portfolio': '/portfolio/portrait_2.jpg',
+  'Portfolio 2': '/portfolio/portrait_1.jpg',
 };
 
 const EASE = [...CINEMA_EASE] as unknown as [number, number, number, number];
@@ -27,7 +27,7 @@ function resolveImage(project: Project | undefined, index: number) {
     if (titleMatch) return titleMatch;
     if (project.image_url) {
       if (project.image_url.startsWith('http://') || project.image_url.startsWith('https://') || project.image_url.startsWith('/')) return project.image_url;
-      return `/${project.image_url.replace(/^\/+/, '')}`;
+      return `/${project.image_url.replace(/^\\/+/, '')}`;
     }
   }
   return FALLBACK_IMAGES[index % FALLBACK_IMAGES.length];
