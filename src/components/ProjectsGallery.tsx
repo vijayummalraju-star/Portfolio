@@ -27,7 +27,7 @@ function resolveImage(project: Project | undefined, index: number) {
     if (titleMatch) return titleMatch;
     if (project.image_url) {
       if (project.image_url.startsWith('http://') || project.image_url.startsWith('https://') || project.image_url.startsWith('/')) return project.image_url;
-      return `/${project.image_url.replace(/^\/+/, '')}`;
+      return `/${project.image_url.replace(/^\\/+/, '')}`;
     }
   }
   return FALLBACK_IMAGES[index % FALLBACK_IMAGES.length];
